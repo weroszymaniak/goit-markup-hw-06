@@ -627,7 +627,6 @@ body {
 /* FOOTER-NEWSLETTER */
 .newsletter {
     display: flex;
-    gap: 12px;
     justify-content: space-between;
 }
 
@@ -648,7 +647,7 @@ body {
     border-radius: 4px;
     outline: none;
     min-width: 358px;
-    padding-left: 16px;
+    padding: 16px 178px 15px 15px;
 }
 .newsletter-btn {
     padding: 10px 28px 10px 42px;
@@ -669,9 +668,7 @@ body {
     fill: var(--main-white-color);
     margin-left: 24px;
 }
-.newsletter-label {
-    visibility: hidden;
-}
+
 /* SIGNUP-FORM */
 .signup-form {
     position: absolute;
@@ -789,7 +786,7 @@ body {
 
 .policy-checkbox-button:checked::before {
     position: absolute;
-    content: url('./images/icon-check.svg');
+    content: url('/images/icon-check.svg');
     width: 16px;
     height: 15px;
     position: absolute;
