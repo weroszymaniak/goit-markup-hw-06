@@ -633,6 +633,7 @@ body {
 .newsletter-form {
     display: flex;
     justify-content: space-between;
+    gap: 12px;
 }
 .newsletter-cta {
     font-weight: 700;
@@ -675,7 +676,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    gap: 15px;
+    gap: 21px;
     padding: 40px;
     width: 100%;
     height: 100%;
@@ -778,7 +779,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--contact-color);
     margin-left: 8px;
-    margin-bottom: 25px;
     position: absolute;
     left: 25px;
     top: 30px;
@@ -805,6 +805,7 @@ body {
     position: absolute;
     top: -1px;
     left: -1px;
+    z-index: 2;
 }
 .hidden-checkbox {
     appearance: none;
