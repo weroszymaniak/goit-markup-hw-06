@@ -799,7 +799,7 @@ body {
 
 .policy-checkbox-button:checked::before {
     position: absolute;
-    content: url('/images/icon-check.svg');
+    content: url('../images/icon-check.svg');
     width: 16px;
     height: 15px;
     position: absolute;
