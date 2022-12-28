@@ -682,8 +682,8 @@ body {
     height: 100%;
 }
 .signup-form h2 {
-    margin-bottom: 12px;
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 20px;
     line-height: 1, 15;
@@ -713,13 +713,12 @@ body {
     outline: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    position: absolute;
-    top: 20px;
     left: 0;
     padding-left: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
     width: 100%;
+    margin-top: 5px;
 }
 .signup-form-input:focus-within {
     border: 1px solid var(--logo-text-color-blue);
@@ -736,7 +735,6 @@ body {
     position: relative;
     width: 100%;
     min-height: 58px;
-    top: -25px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -755,7 +753,6 @@ body {
     min-height: 120px;
 }
 .signup-form-text {
-    position: absolute;
     outline: none;
     border: none;
     resize: none;
@@ -763,8 +760,7 @@ body {
     border-radius: 4px;
     width: 100%;
     padding: 12px 16px;
-    top: 15px;
-    left: 0px;
+    margin-top: 5px;
 }
 .signup-form-policy {
     position: relative;
@@ -779,9 +775,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--contact-color);
     margin-left: 8px;
-    position: absolute;
-    left: 25px;
-    top: 30px;
 }
 .policy-checkbox:focus-within {
     fill: var(--logo-text-color-blue);
@@ -790,8 +783,6 @@ body {
 .policy-checkbox-button {
     width: 16px;
     height: 15px;
-    top: 34px;
-    position: absolute;
     border: 1px solid;
     border-radius: 2px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -803,8 +794,8 @@ body {
     width: 16px;
     height: 15px;
     position: absolute;
-    top: -1px;
-    left: -1px;
+    top: 2px;
+    left: 10px;
     z-index: 2;
 }
 .hidden-checkbox {
@@ -826,9 +817,7 @@ body {
     line-height: 30px;
     cursor: pointer;
     max-width: 200px;
-    position: absolute;
-    top: 491px;
-    left: 164px;
+    margin: 0 auto;
 }
 .is-hidden {
     pointer-events: none;
